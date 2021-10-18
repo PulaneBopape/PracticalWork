@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>STATIONERY MARKET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div id ="header">
+ <h1>info@stationerymarket.co.za</h1> 
+ </div>
+</header>
+<div id ="nav">
+  <div id ="topToBottom">
+<ul>
+   <img src="IMAGES/PENCIL.jpg" width=150 height=80/>
+  <li><a href="DONATE.html">DONATE</a></li>
+  <li><a href="PRODUCT.html">PRODUCT</a></li>
+  <li><a href="CONTACT.html">CONTACT</a></li>
+  <li><a href="ABOUTUS.html">ABOUT US</a></li>
+  <li><a href="INDEX.html">HOME</a></li>
+</ul>
+</div>
+<div id="h1">
+<h1>WELCOME TO STATIONERY MARKET</h1>
+<h2>Where colours and pencils draw everywhere</h2>
+</div>
+<div id="h2">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="PRODUCT.html" class="button">PRODUCT</a></button>
+<a href="DONATE.html" class="button">DONATE</a></button><br><br>
+<img src="IMAGES/PENS.jpg" alt="PENS">
+<img src="IMAGES/PENS.jpg" alt="PENS">
+<img src="IMAGES/RULER.jpg" alt="RULER">
+<img src="IMAGES/RULER.jpg" alt="RULER">
+<img src="IMAGES/RULER.jpg" alt="RULER">
+<img src="IMAGES/RULER.jpg" alt="RULER">
+<img src="IMAGES/RULER.jpg" alt="RULER">
+
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<div id = "Container" >
+  <div class="slideshow-container">
+  <div class="mySlides">
+    <h3> LETS COLOUR THE WORLD</h3>
+    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else <a href = "https://everydaypower.com/booker-t-washington-quotes/"> Booker T. Washington</a></q>
+  </div>
+  
+  <div class="mySlides">
+    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+    <p class="author">- Ernest Hemingway</p>
+  </div>
+  
+  <div class="mySlides">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+    <p class="author">- Thomas A. Edison</p>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+     
+  }
+  </script><br><br><br><br>
+</div>
+
+<p> Sponsored by</p>
+
+<image src="IMAGES/EDUU.png" style="float:left; width:30%; margin-right:1%; margin-bottom:0,5em;">
+<image src="IMAGES/BICC.png" style="float:left; width:30%; margin-right:1%; margin-bottom:0,5em;">
+<image src="IMAGES/CNAA.png" style="float:left; width:30%; margin-right:1%; margin-bottom:0,5em;">
+<p style="clear:both;">  
+<br>
+<br>
+
+<div class="footer">
+  <p>This Website was designed by Stationery Market</p>
+</div>
+
+</body>
+</html>

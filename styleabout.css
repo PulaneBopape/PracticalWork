@@ -1,0 +1,159 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: left;
+  padding: 5px 4px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color:Blue;
+}
+/* Style the header */
+#header {
+  background-color: DodgerBlue;
+  padding: 5px;
+  text-align: left;
+  font-size: 6px;
+  color: white;
+}
+body {
+	
+  background-image: url('IMAGES/BLI.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 50% 50%;
+  
+}
+#h1{
+  text-align: left; 
+  color:white;
+  font-size:19px;
+  
+}
+#h2{
+  text-align: center; 
+   color:blue;
+  font-size:12px;
+}
+.button {
+  background-color:YELLOW;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+   background-color:yellow;
+   padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#body2{
+	
+  background-image: url('IMAGES/PENCIL.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 90%;
+  
+}
+
+ #Container{ background-image: url('images/Pear.jpg');
+    box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif; margin:0; color: white;}
+	
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0;background-image:url('IMAGES/PENS.jpg';)}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 150px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
